@@ -1,0 +1,397 @@
+    
+    * {
+        font-family:Arial, Helvetica, sans-serif;
+        margin: 0 auto;
+        padding: 0;
+    }
+    footer{
+        background: #085690;
+    }
+    footer .content-footer{
+        font-size: 20px;
+            margin: 0 0 25px;}
+
+    .header {
+        width: 100%;
+        height: 50px;
+        display: flex;
+        align-items: center;
+    }
+
+    .header-logo img {
+        width: 100px;
+        height: 50px;
+        margin: 0 auto;
+    }   
+
+    .header ul {
+        display: flex;
+        gap: 30px;
+    }
+
+    .header ul li {
+        list-style: none;
+    }
+
+    .header ul li a {
+        font-size: 1.2rem;    
+        font-weight: 600;
+        color: rgb(119, 116, 116);
+        transition: color 0.5s ease;    
+    }
+
+    .header ul li a:hover {
+        color: black;
+    }
+
+    .rotated {
+        line-height: 1px;
+        display: inline-block;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        transform: rotate(180deg); 
+        font-weight: 700;
+    }
+
+    .header-text {
+        font-weight: 650;
+        color: rgb(119, 116, 116);
+        font-size: 3rem;
+        text-align: center;
+        padding-top: 50px;
+    }
+
+    .search-form {
+        display: flex;
+    }
+
+    .search-input {
+        padding: 8px;
+        font-size: 16px;
+        background-color: #ccc;
+        border: 0px solid #ccc;
+        border-radius: 7px;
+        outline: none;
+    }
+
+    .search-button {
+        padding: 8px 16px;
+        font-size: 16px;
+        border: none;
+        background-color: #4CAF50;
+        color: white;
+        cursor: pointer;
+        border-radius: 0 4px 4px 0;
+    }
+
+    .search-button:hover {
+        background-color: #45a049;
+    }
+
+    .car {
+        margin: 0 auto;
+        background-color: #ccc;
+        padding: 0 10px;
+        height: 35px;
+        width: 900px;
+        border-radius: 50px;
+    }
+
+    .car ul {
+        display: flex;
+        margin: 0;
+    }
+
+    .car ul li {
+        list-style: none;
+        margin: 0 auto;
+    }
+
+    .car ul li a {
+        font-size: 1.5rem;    
+        font-weight: 400;
+        color: rgb(119, 116, 116);
+        line-height: 45px;
+    }
+
+    .info-car {
+        display: flex;
+        padding-top: 20px;
+        justify-content: center;
+    }
+
+    .info-car img {
+        width: 600px;
+        height: 300px;
+        margin: 0;
+        gap: 20px;
+    }
+
+    .line {
+        width: 1px;
+        height: 500px;
+        border-radius: 5px;
+        background-color: #4d474766;
+        margin: 0 50px;
+        
+    }
+
+    .car-image {
+        display: flex;
+        gap: 20px;
+        padding: 20px 0;
+        justify-content: center;
+        position: relative;
+    }
+
+    .car-image img {
+        width: 300px; 
+        height: 300px; 
+        object-fit: cover;
+        border-radius: 20px;
+        position: relative;
+        z-index: 0; 
+    }
+
+    .car-image .image-container {
+        position: relative;
+        width: 100%;
+        height: 100%;
+    }
+
+    .car-image .image-container::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 300px;
+        height: 300px;
+        background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1));
+        z-index: 1;
+        border-radius: 10px;
+    }
+
+    .car-image .text-overlay {
+        position: absolute;
+        width: 300px;
+        top: 90%;
+        left: 55%;
+        transform: translate(-50%, -50%); 
+        color: rgb(255, 0, 0);
+        font-size: 12px;
+        z-index: 2; 
+    }
+
+    
+
+    .tintuc {
+        display: flex;
+        height: 1000px;
+        margin-top: 40px;
+        flex-wrap: wrap;
+    }
+
+    .tintuc-block {
+        width: 50%;
+        height: auto;
+        margin: 0;
+    }
+
+    .tintuc-block-content {
+        display: flex;
+    }
+
+    .tintuc-image {
+        width: 45%;
+        height: 250px;
+        border-radius: 5px;
+        overflow: hidden;
+        margin: 20px;
+    }
+
+    .tintuc-image img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .tintuc-content {
+        display: flex;
+        flex-direction: column;
+        width: 55%;
+        margin: 30px 0;
+    }
+    .banner img{
+        width: 100%;
+    }
+
+    .tintuc-content p {
+        align-items: left;
+        margin: 0;
+        padding: 10px;
+        font-size: 1.1rem;
+    }
+
+    .banggia {
+        display: flex;
+        padding-top: 40px;
+        margin: 0;
+    }
+
+    .banggia-image {
+        width: 40%;
+        height: 300px;
+        margin: 0;
+    }
+
+    .banggia-image img {
+        width: 500px;
+        margin: 15px 10%;
+    }
+
+    .banggia-text {
+        display: flex;
+        flex-direction: column;
+        width: 60%;
+        height: 300px;
+        margin: 0;
+    }
+
+    .banggia-text-content {
+        display: flex;
+        height: 49%;
+        margin: 0;
+    }
+
+    .banggia-text-1 {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        margin: 0;
+        justify-content: center;
+    }
+
+    .banggia-text-2 {
+        display: flex;
+        flex-direction: column;
+        width: 20%;
+        height: 150px;
+        margin: 0;
+        justify-content: center;
+    }
+
+    .banggia .line {
+        width: 85%;
+        height: 1px;
+        margin: 0 5.5%;
+    }   
+
+    .banggia-text-1 p {
+        margin-left: 50px;
+        font-size: 1.1rem;
+    }
+    /* Điều chỉnh chiều cao banner */
+.banner img {
+    height: 600px;
+    width: 100%;
+    object-fit: cover;
+  }
+  
+  /* Canh chỉnh nút và thẻ sản phẩm */
+  .products .card img {
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .products .btn {
+    margin: 5px 0;
+  }
+  
+  /* Footer style */
+  footer p {
+    margin: 0;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
+  .contact-banner {
+    color: white;
+    background: url('banner.jpg') no-repeat center center / cover;
+}
+
+.contact-form label {
+    font-weight: bold;
+}
+
+footer p {
+    margin: 0;
+}
+.modal-header {
+    border-bottom: none;
+}
+
+.modal-content {
+    background: url('https://via.placeholder.com/800x400') no-repeat center center;
+    background-size: cover;
+    position: relative;
+}
+
+.modal-content::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Hiệu ứng mờ */
+    z-index: 1;
+}
+
+.modal-body {
+    position: relative;
+    z-index: 2;
+}
+
+.modal-body label {
+    font-weight: bold;
+    color: #fff;
+}
+
+.modal-footer {
+    border-top: none;
+}
+.car-item {
+    display: flex;
+    align-items: center; /* Align vertically in the center */
+    margin-bottom: 20px; /* Spacing between car items */
+    margin-top: 20px;
+}
+
+.car-item img {
+    width: 200px; /* Set a fixed width for images */
+    margin-right: 20px; /* Space between image and text content */
+}
+
+.car-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.car-title {
+    font-weight: bold;
+    margin-right: 20px; /* Space between title and other elements */
+}
+
+.car-price, .details-link {
+    margin-right: 20px;
+    color: #ca2020;
+    white-space: nowrap; /* Prevent text from wrapping */
+}
+
+.details-link {
+    color: blue;
+    text-decoration: none;
+}
+

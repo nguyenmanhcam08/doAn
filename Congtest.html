@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KIA Car Listing</title>
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* General Styles */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+        }
+
+        /* Header Section */
+        .header-banner {
+            position: relative;
+            text-align: center;
+            color: white;
+        }
+
+        .header-banner img {
+            width: 100%;
+            height: auto;
+        }
+
+        .header-text {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 2rem;
+            font-weight: bold;
+        }
+
+        /* Car Section */
+        .car-section {
+            margin: 40px auto;
+        }
+
+        .car-item {
+            display: flex;
+            align-items: center;
+            border-bottom: 1px solid #ddd;
+            padding: 15px 0;
+        }
+
+        .car-item img {
+            width: 180px;
+            height: auto;
+            margin-right: 15px;
+        }
+
+        .car-title {
+            font-size: 1.1rem;
+            font-weight: bold;
+            margin-bottom: 5px;
+            color: #333;
+        }
+
+        .car-price {
+            font-size: 1rem;
+            color: #d32f2f;
+            font-weight: bold;
+        }
+
+        .details-link {
+            font-size: 0.9rem;
+            color: #007bff;
+            text-decoration: none;
+        }
+
+        .details-link:hover {
+            text-decoration: underline;
+        }
+
+        .section-title {
+            font-size: 1.3rem;
+            font-weight: bold;
+            text-transform: uppercase;
+            margin: 20px 0 10px;
+            color: #555;
+        }
+        .car-item {
+    display: flex;
+    align-items: center; /* Aligns items vertically in the center */
+    margin-bottom: 20px;
+}
+
+.car-item img {
+    width: 200px; /* Adjust image width */
+    margin-right: 20px; /* Adds space between the image and text */
+}
+
+.car-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.car-title {
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+.car-price, .details-link {
+    margin-right: 20px;
+    white-space: nowrap; /* Prevents text wrapping */
+}
+
+.details-link {
+    color: blue;
+    text-decoration: none;
+}
+    </style>
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="header-banner">
+        <img src="image/banner-gia-xe-01.jpg" alt="Header Banner">
+    </header>
+
+    <!-- Car Listings -->
+    <div class="container car-section">
+        <!-- Cerato Section -->
+        <div class="section-title">Cerato</div>
+
+        <div class="car-item">
+            <img src="image/Bảo-hiểm-VCX-ô-tô-Kia-Cerato.png" alt="Cerato">
+            <div class="car-details">
+                <div class="car-title">Sorento Plug-in Hybrid 1.6L Signature (Nội thất Nâu)</div>
+                <div class="car-price">Giá bán 599,000,000đ</div>
+                <a href="#" class="details-link">Chi tiết > Dự toán ></a>
+            </div>
+        </div>
+        
+        <div class="car-item">
+            <img src="image/hybrid.png" alt="Cerato">
+            <div class="car-details">
+                <div class="car-title">Sorento Plug-in Hybrid 1.6L Premium (Nội thất Đen)</div>
+                <div class="car-price">Giá bán 799,000,000đ</div>
+                <a href="#" class="details-link">Chi tiết > Dự toán ></a>
+            </div>
+        </div>
+
+       <!-- Sorento Plug-in Hybrid Section -->
+<div class="section-title">Sorento Plug-in Hybrid</div>
+<div class="car-item">
+    <img src="image/hinh-xe-new-seltos-moi-1.png" alt="Sorento Hybrid">
+    <div class="car-details">
+        <div class="car-title">Sorento Plug-in Hybrid 1.6L Signature (Nội thất Nâu)</div>
+        <div class="car-price">Giá bán 1,499,000,000đ</div>
+        <a href="#" class="details-link">Chi tiết > Dự toán ></a>
+    </div>
+</div>
+<div class="car-item">
+    <img src="image/sorento-pngicon.png" alt="Sorento Hybrid">
+    <div class="car-details">
+        <div class="car-title">Sorento Plug-in Hybrid 1.6L Premium (Nội thất Xanh)</div>
+        <div class="car-price">Giá bán 1,399,000,000đ</div>
+        <a href="#" class="details-link">Chi tiết > Dự toán ></a>
+    </div>
+</div>
+
+<!-- Sorento Section -->
+<div class="section-title">Sorento</div>
+<div class="car-item">
+    <img src="image/soluto-pngicon.png" alt="Sorento">
+    <div class="car-details">
+        <div class="car-title">Sorento - 2 Signature AWD (6 chỗ) (Nội thất Đỏ Tươi)</div>
+        <div class="car-price">Giá bán 1,189,000,000đ</div>
+        <a href="#" class="details-link">Chi tiết > Dự toán ></a>
+    </div>
+</div>
+<div class="car-item">
+    <img src="image/oto2.png" alt="Sorento">
+    <div class="car-details">
+        <div class="car-title">Sorento - 2.5G37 Signature AWD (Nội thất Xám Trắng)</div>
+        <div class="car-price">Giá bán 1,124,000,000đ</div>
+        <a href="#" class="details-link">Chi tiết > Dự toán ></a>
+    </div>
+</div>
+
+<!-- Carens Section -->
+<div class="section-title">Carens</div>
+<div class="car-item">
+    <img src="image/k3oto.png" alt="Carens">
+    <div class="car-details">
+        <div class="car-title">Carens 1.5G IVT (Trang bị phanh phụ) (Nội thất Xanh)</div>
+        <div class="car-price">Giá bán 636,000,000đ</div>
+        <a href="#" class="details-link">Chi tiết > Dự toán ></a>
+    </div>
+</div>
+
+<!-- New Carnival Section -->
+<div class="section-title">New Carnival</div>
+<div class="car-item">
+    <img src="image/k5-xanhsam.png" alt="Carnival">
+    <div class="car-details">
+        <div class="car-title">New Carnival 2.2DG38 Luxury 8S (Nội thất xanh dương)</div>
+        <div class="car-price">Giá bán 1,299,000,000đ</div>
+        <a href="#" class="details-link">Chi tiết > Dự toán ></a>
+    </div>
+</div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
